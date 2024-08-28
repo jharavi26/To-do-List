@@ -27,6 +27,7 @@ const [todoItems, setTodoItems]=useState([]);
     <>
    <center class="To-Do Container">
     <div className="App">
+      <h1>to-do Application</h1>
     <AppName/>
     <AddTodo onNewItem={handleNewItem}/>
     {todoItems.length===0 && <WelcomeMessage></WelcomeMessage>}
